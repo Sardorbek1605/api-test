@@ -1,0 +1,25 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Your super ApplicationAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "api/products": {
+            "get": {
+                "tags": [
+                    "Products"
+                ],
+                "operationId": "getUserList",
+                "responses": {
+                    "400": {
+                        "description": "Bad Request"
+                    },
+                    "404": {
+                        "description": "not found"
+                    }
+                }
+            }
+        }
+    }
+}
